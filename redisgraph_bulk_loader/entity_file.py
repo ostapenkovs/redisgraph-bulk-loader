@@ -8,7 +8,7 @@ import struct
 from enum import Enum
 from exceptions import CSVError, SchemaError
 
-csv.field_size_limit(sys.maxsize) # Don't limit the size of user input fields.
+#csv.field_size_limit(sys.maxsize) # Don't limit the size of user input fields.
 
 
 class Type(Enum):
